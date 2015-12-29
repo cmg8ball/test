@@ -393,7 +393,11 @@ th {
 }
 
 body {
+<<<<<<< HEAD
   background-color: red;
+=======
+  background-color: blue;
+>>>>>>> abc467741e58e240227ef4e9d39fc68aa19be48e
 }
 
 div {
