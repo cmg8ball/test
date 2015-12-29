@@ -1,0 +1,10 @@
+@import "../bourbon/bourbon";
+@import "globals/globals";
+
+div {
+    @include border-right-radius(4px);
+}
+
+section {
+ @include background-image(linear-gradient(to top, #00ff00, #ff0000));
+}
