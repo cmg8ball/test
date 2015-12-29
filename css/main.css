@@ -392,15 +392,12 @@ th {
   padding: 0;
 }
 
-body {
-<<<<<<< HEAD
-  background-color: red;
-=======
-  background-color: blue;
->>>>>>> abc467741e58e240227ef4e9d39fc68aa19be48e
-}
-
 div {
   border-bottom-right-radius: 4px;
   border-top-right-radius: 4px;
+}
+
+section {
+  background-image: -webkit-linear-gradient( bottom , #00ff00, #ff0000);
+  background-image: linear-gradient(to top, #00ff00, #ff0000);
 }
