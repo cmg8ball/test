@@ -1,0 +1,16 @@
+@import "susy";
+
+$susy: (
+    columns: 12,
+    gutters: 1/4,
+    container: auto,
+    container-position: center,
+    math: fluid,
+    output: float,
+    gutter-position: inside,
+    global-box-sizing: border-box,
+);
+
+.container {
+    background-color: red;
+}
