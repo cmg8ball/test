@@ -392,6 +392,18 @@ th {
   padding: 0;
 }
 
+.wrapper {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
 .hero {
   width: 70%;
   margin: 0 auto;

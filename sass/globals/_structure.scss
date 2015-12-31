@@ -1,4 +1,4 @@
-@import "susy";
+@import "../../bower_components/susy/sass/susy";
 
 $susy: (
     columns: 12,
@@ -11,6 +11,6 @@ $susy: (
     global-box-sizing: border-box,
 );
 
-.container {
-    background-color: red;
+.wrapper {
+    @include container(80%);
 }

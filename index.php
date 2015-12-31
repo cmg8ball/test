@@ -9,6 +9,8 @@
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        hi there
+        <section class="wrapper">
+            hi there
+        </section>
     </body>
 </html>
